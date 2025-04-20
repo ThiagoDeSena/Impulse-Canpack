@@ -1,0 +1,49 @@
+/* Fonte personalizada do Google Fonts */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1C3A29; /* color name */
+    margin: 0;
+    padding: 20px;
+    color: #F8F8F8;
+  }
+  
+  /* Título com cor diferente */
+  header h1 {
+    background-color: rgb(43, 93, 166); /* RGB */
+    color: #F8F8F8;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #C0392B; /* Vermelho destaque */
+  }
+  
+  /* Descrição */
+  .descricao p {
+    background-color: #2E5C41;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #F8F8F8;
+  }
+  
+  /* Lista de locais */
+  .locais h2 {
+    color: hsl(219, 59%, 41%); /* HSL */
+  }
+  
+  ul {
+    padding-left: 20px;
+    list-style-type: circle;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Imagem */
+  .imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
